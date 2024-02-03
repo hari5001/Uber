@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=K2D:ital,wght@0,200;0,300;0,700;0,800;1,400&family=Manrope:wght@300&family=Quattrocento+Sans:ital@1&family=Roboto:wght@500&display=swap');
+body{
+    margin: 0;
+    background-image: none;
+    font-family: 'K2D';
+}
+header a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 64px;
+    align-items: center;
+}
+header .left{
+    padding-left:70px ;
+}
+header .right{
+    padding-right: 70px;
+}
+#signup{
+    background-color: white;
+    border-radius: 30px;
+    color:black;
+    width:90px;
+
+}
+.right a {
+    background-color: black;
+    margin: 0px 10px;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    font-size:small;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color:black;
+    border-radius: 70;
+    align-items:center;
+}
+.left a{
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#logo{
+    font-size: 24px;
+}
+.n1{
+    display: flex;
+    overflow:auto;
+}
+.form1{
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1349,h_644/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png);
+    background-size: cover;
+    height:650px  ;
+}
+.c1 {
+    background-color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    left :7%;
+    top :10%;
+    width: 40%;
+}
+.heads button i{
+
+    display: flex;
+    font-size:x-large ;
+    font-weight: 600;
+    color: black;
+    align-items: center;
+    justify-content:center;
+    padding:0px 0px 20px 0px;
+}
+.heads button{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(85, 81, 81);
+    background-color: white;
+    border-color: white;
+    border: white;
+    justify-content: space-between;
+    width: 20%;
+}
+.heads{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.363);
+}
+.form11{
+    padding-left: 55px;
+    padding-top: 40px;
+}
+.crit input{
+ width: 90%;
+height: 50px; 
+border: none;
+margin-bottom: 0%;
+letter-spacing: 1px;
+font-size: medium;
+background-color: rgba(146, 138, 138, 0.1);
+}
+.meal{
+    font-size: 10px;
+    font-weight: 900;
+}
+.design {
+ position: absolute;
+ bottom: 145px;
+ left: 15%;;
+}
+#circle {
+    width: 6px;
+    height: 6px;
+    margin: 1px;
+    margin: 1px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background:white;
+    border: 1px solid rgb(0, 0, 0);
+}
+#line {
+    width: 1px;
+    height: 60px;
+    margin: 1px;
+    border-right: 1px solid black;
+    padding-right:2px;
+    
+}
+#squar
+{   
+    width: 5px;
+    height:5px;
+    margin:1px;
+    border: 1px solid black;
+}
+.send{
+    position:absolute;
+    right: 10%;
+}
+.send button{
+    border: none;
+    color:rgba(126, 123, 123, 0.534);;
+}
+.form11 .submit1{
+    font-size: medium;
+    font-weight: 550;
+    padding: 15px 20px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.form11 .submit2{
+    font-size: medium;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.808);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.subm{
+    margin:3% 0% ;
+}
+.dummy img{
+    object-fit:cover;
+    width:100%;
+    height: 300px;
+}
+.tex{
+    position: absolute;
+    width: 50%;
+    padding: 3% 8%;
+    height: 300px;
+}
+.tex button{
+    margin-top: 5%;
+    padding: 10px 25px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.wap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+    padding: 2% 6%;
+}
+.right1 img,.left1 img{
+    width: 90%;
+}
+.head_car{
+    font-size: 2.5rem;
+    padding-left:6% ;
+}
+.mat3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    padding: 7% 6%;
+    color:rgb(61, 61, 61);
+}
+.mat3 a{
+    color:rgb(61, 61, 61);
+}
+.mat3 i{
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+.veicle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 10%;
+}
+.vn{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.vn  i{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-weight:bolder;
+}
+.word h3{
+    color: rgb(65, 65, 65);
+    font-weight: 500;
+}
+.vh{
+    padding:0% 0% 3% 5%;
+}
+.cn{
+    display: grid;
+    padding-top: 3%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3%;
+}
+.qr{
+    padding:2% 7%;
+    background-color: rgba(184, 183, 183, 0.116);
+}
+.qr1{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    background-color: white;
+    column-gap: 70px;
+    grid-template-columns: fit-content(40%) fit-content(40%) 1fr;
+    padding: 2% 5%;
+}
+.qr1 img{
+    width:150px;
+}
+.qr1 i  {
+    font-weight: 900;
+    font-size: larger;
+}
+.in1, .signup_s{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: xx-large;
+    font-weight: 900;
+    align-items: center;
+    column-gap: 30px;
+}
+.signup_s{
+    padding:5% 6%;
+}
+.in1{
+    margin-left: 4%;
+    border-bottom: 1px solid black;
+}
+footer{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 8%;
+}
+footer a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.grid1{
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ven1 a{
+    font-size: 1.5rem;
+}
+.ven2 {
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-bottom:40px ;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons a{
+    padding-left: 40px;
+}
+@media screen {
+    
